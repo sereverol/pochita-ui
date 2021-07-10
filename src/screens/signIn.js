@@ -4,8 +4,8 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 import { Icon } from 'react-native-elements'
 
-import Field from '../components/Field';
-import Http from '../components/Http';
+import Field from '../components/fields';
+import Http from '../components/http';
 
 import { signInStyles } from '../styles/screens/signIn';
 
