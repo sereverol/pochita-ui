@@ -8,7 +8,7 @@ import Field from '../components/fields';
 import Http from '../components/http';
 import SearchBar from '../components/SearchBar';
 
-//import { homeStyles } from '../styles/screens/home';
+import { homeStyles } from '../styles/screens/home';
 
 
 const LIST_BLANK = { id: 0, title: '', background: 'gray', titleForUpdate: '', tasks: [] }
