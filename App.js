@@ -5,7 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import SignUp from './src/screens/signUp';
 import SignIn from   './src/screens/signIn';
-
 const Stack = createStackNavigator();
 
 export default function App() {
