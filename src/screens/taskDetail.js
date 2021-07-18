@@ -96,7 +96,7 @@ const TaskDetail = ({ route }) => {
             updateField('date', date); 
             schedulePushNotification(
                 "📬We don't have any more time!",
-                `${route.params.item.title}: There is little left until this task expires!`,
+                `${route.params.item.title}: There is litle left until this task expires!`,
                 dateAux
             );
         
@@ -254,7 +254,7 @@ const TaskDetail = ({ route }) => {
 
     const addStep = async () => {
         if(!Field.checkFields([ newStep.description ])) {
-            Alert.alert('Empty Field', 'Please, write a tittle');
+            Alert.alert('Empty Field', 'Please, write a title');
         
         } else { 
             const data = await Http.send('POST', 'step', { ...newStep, taskId: route.params.item.id });

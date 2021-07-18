@@ -207,7 +207,7 @@ const Home = ({ navigation, route }) => {
 
     const updateList = async () => { 
         if(!Field.checkFields([ newList.tittle ])) {
-            Alert.alert('Empty Field', 'Please, write a tittle');
+            Alert.alert('Empty Field', 'Please, write a title');
         
         } else {
             setLoading(true); 
@@ -254,7 +254,7 @@ const Home = ({ navigation, route }) => {
         let res = [];
 
         if(!data) {
-            Alert.alert('Fatal Error', 'No data from server...');
+            Alert.alert('Fatal Error', 'No data from server..');
 
         } else { 
             switch(data.typeResponse) {
@@ -281,7 +281,7 @@ const Home = ({ navigation, route }) => {
 
     const submitNewList = async () => {
         if(!Field.checkFields([ newList.title ])) {
-            Alert.alert('Empty Field', 'Please, write a tittle');
+            Alert.alert('Empty Field', 'Please, write a title');
         
         } else {
             setLoading(true);
@@ -289,7 +289,7 @@ const Home = ({ navigation, route }) => {
             const data = await Http.send('POST', 'list', { ...newList, userId: id });
 
             if(!data) {
-                Alert.alert('Fatal Error', 'No data from server...');
+                Alert.alert('Fatal Error', 'No data from server..');
     
             } else {
                 switch(data.typeResponse) {
