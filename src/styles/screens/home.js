@@ -1,109 +1,109 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
+import Colors from '../../constants/colors';
 
 export const homeStyles = StyleSheet.create({
-    centeredView: {
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "center",
-      marginTop: 22
-    },
-    
-    modalView: {
-      margin: 20,
-      backgroundColor: "white",
-      borderRadius: 20,
-      padding: 35,
-      alignItems: "center",
-      shadowColor: "#000",
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.25,
-      shadowRadius: 4,
-      elevation: 5
-    },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 22,
+  },
 
-    button: {
-      borderRadius: 20,
-      padding: 10,
-      elevation: 2
-    },
+  modalView: {
+    margin: 20,
+    backgroundColor: 'white',
+    borderRadius: 20,
+    padding: 35,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
 
-    buttonClose: {
-      backgroundColor: "#2196F3",
-    },
+  button: {
+    borderRadius: 20,
+    padding: 10,
+    elevation: 2,
+  },
 
-    textStyle: {
-      color: "white",
-      fontWeight: "bold",
-      textAlign: "center"
-    },
+  buttonClose: {
+    backgroundColor: '#2196F3',
+  },
 
-    modalText: {
-      marginBottom: 15,
-      textAlign: "center"
-    },
+  textStyle: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
 
-    container: {
-        flex: 1,
-        backgroundColor: '#006aff',
-    },
+  modalText: {
+    marginBottom: 15,
+    textAlign: 'center',
+  },
 
-    header: {
-        padding: 20,
-        flexDirection: "row",
-        backgroundColor: '#f4f6fc',
-        justifyContent: "space-between",
-        alignItems: "center",
-        borderTopRightRadius: 20,
-        borderTopLeftRadius: 20
-    },
+  container: {
+    flex: 1,
+    backgroundColor: '#006aff',
+  },
 
-    secondary: {
-        justifyContent: "space-between",
-        alignItems:'center',
-        backgroundColor: 'white',
-        flexDirection: 'row',
-        paddingHorizontal: 16,
-        borderRadius: 10,
-    },
+  header: {
+    padding: 10,
+    flexDirection: 'row',
+    backgroundColor: '#f4f6fc',
+    justifyContent: 'space-between',
+    alignItems: 'stretch',
+  },
 
-    viewSecondary: {
-      paddingHorizontal:16,
-      paddingTop: 10,
-      paddingVertical: 5,
-      backgroundColor: '#f4f6fc'
-    },
+  secondary: {
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    flexDirection: 'row',
+    paddingHorizontal: 16,
+    borderRadius: 10,
+  },
 
-    textSecondary: {
-      color:'gray',
-      fontSize: 30
-    },
+  viewSecondary: {
+    paddingHorizontal: 16,
+    paddingTop: 10,
+    paddingVertical: 5,
+    backgroundColor: '#f4f6fc',
+  },
 
-    viewList: {
-        backgroundColor: '#fff',
-        flexDirection: "row",
-        marginHorizontal: 16,
-        marginVertical: 4,
-        borderRadius: 20,
-        paddingVertical: 20,
-        paddingHorizontal: 24,
-        justifyContent: "space-between"
-    },
+  textSecondary: {
+    color: 'gray',
+    fontSize: 30,
+  },
 
-    viewTitle: {
-        paddingTop: 30, 
-        paddingLeft: 16, 
-        paddingBottom: 10,  
-        flexDirection: "row", 
-        justifyContent: "space-between"
-    },
+  viewList: {
+    backgroundColor: '#fff',
+    flexDirection: 'row',
+    marginHorizontal: 16,
+    marginVertical: 4,
+    borderRadius: 20,
+    paddingVertical: 15,
+    paddingHorizontal: 24,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
 
-    textTitle: {
-        color: '#f4f6fc', 
-        fontSize: 30
-    },
+  viewTitle: {
+    paddingTop: 30,
+    paddingLeft: 16,
+    paddingBottom: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
 
-    buttonAdd: { 
-        backgroundColor: '#fff', 
-        borderRadius: 20 
-    }
+  textTitle: {
+    color: '#f4f6fc',
+    fontSize: 30,
+  },
+
+  buttonAdd: {
+    backgroundColor: '#fff',
+    borderRadius: 30,
+  },
 });

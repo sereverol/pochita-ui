@@ -7,34 +7,32 @@ export const listDetailStyles = StyleSheet.create({
   },
 
   viewTitle: {
-    paddingTop: 30, 
-    paddingLeft: 16, 
-    paddingBottom: 10,  
-    flexDirection: "row", 
-    justifyContent: "space-between"
+    paddingTop: 30,
+    paddingLeft: 16,
+    paddingBottom: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
 
   textTitle: {
-    color: '#f4f6fc', 
-    fontSize: 30
+    color: '#f4f6fc',
+    fontSize: 30,
   },
 
-  buttonAdd: { 
-    color: '#006aff', 
-    backgroundColor: '#fff', 
-    borderRadius: 20 
+  buttonAdd: {
+    color: '#006aff',
+    backgroundColor: '#fff',
+    borderRadius: 20,
   },
 
   header: {
     padding: 20,
-    flexDirection: "row",
+    flexDirection: 'row',
     backgroundColor: '#f4f6fc',
-    justifyContent: "space-between",
-    alignItems: "center",
-    borderTopRightRadius: 20,
-    borderTopLeftRadius: 20
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
-    
+
   item: {
     height: 75,
     backgroundColor: 'white',
@@ -79,7 +77,7 @@ export const listDetailStyles = StyleSheet.create({
     backgroundColor: '#1e90ff',
     justifyContent: 'flex-start',
   },
-    
+
   underlayLeft: {
     flex: 1,
     backgroundColor: 'tomato',
@@ -94,42 +92,42 @@ export const listDetailStyles = StyleSheet.create({
 
   centeredView: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: 22
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 22,
   },
 
   modalView: {
     margin: 20,
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderRadius: 20,
     padding: 35,
-    alignItems: "center",
-    shadowColor: "#000",
+    alignItems: 'center',
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.25,
     shadowRadius: 4,
-    elevation: 5
+    elevation: 5,
   },
 
   button: {
     borderRadius: 20,
     padding: 10,
-    elevation: 2
+    elevation: 2,
   },
 
   buttonClose: {
-    backgroundColor: "#2196F3",
+    backgroundColor: '#2196F3',
   },
 
   textStyle: {
-    color: "white",
-    fontWeight: "bold",
-    textAlign: "center"
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 
   modalText: {
     marginBottom: 15,
-    textAlign: "center"
+    textAlign: 'center',
   },
 });
