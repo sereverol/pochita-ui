@@ -56,7 +56,7 @@ export default function App() {
             options={{ title: 'List Detail', headerShown: false }}
           ></Stack.Screen>
           <Stack.Screen
-            name="TaskDetails"
+            name="TaskDetail"
             component={TaskDetail}
             options={{ title: 'Task Detail', headerShown: false }}
           ></Stack.Screen>
